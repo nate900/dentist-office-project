@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Dentist Office</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/apply-fonts.css">
+        <style>
+            .nav-container{
+                
+            }
+            
+            .navigation{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+            }
+            
+            .nav-link-contain{
+                margin: 1rem;
+                padding: .5rem;
+                border: 2px solid #00897b;
+                border-radius: 20px;
+            }
+            
+            .nav-link{
+                
+            }
+            
+            .main{
+                width: 100%;
+            }
+            
+            .header{
+                width: 50%;
+                margin: auto;
+                background-color: #00897b;
+                border: 3px solid #00897b;
+                border-radius: 30px;
+            }
+            
+            img{
+                max-width: 100%;
+                height: auto;
+                border: 3px solid #00897b;
+                border-radius: 30px;
+            }
+            
+            .header h2{
+                text-align: center;
+                font-size: 2rem;
+            }
+            
+            .content{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+            
+            .article{
+                display: inline-block;
+                margin: .5rem;
+                padding: .25rem;
+                border: 3px solid #00897b;
+                border-radius: 30px;
+            }
+            
+            p{
+                font-size: .88rem;
+                display: inherit;
+            }
+            
+            h3{
+                display: inherit;
+            }
+            
+            .footer{
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav-container">
+            <nav class="navigation">
+                    <span class="nav-link-contain"><a class="nav-link" href="#">About</a></span>
+                    <span class="nav-link-contain"><a class="nav-link" href="#">Help</a></span>
+                    <span class="nav-link-contain"><a class="nav-link" href="pat/login.html">Login</a></span>
+                    <span class="nav-link-contain"><a class="nav-link" href="#">Register</a></span>
+            </nav>
+        </div>
+        <main class="main">
+            <header class="header">
+                <h2>Welcome to the Dentist Office</h2>
+                <img src="images/dentist-office-pic.jpg" alt="Picture of a dentist office chair.">
+            </header>
+            <div class="content">
+                <article class="article">
+                    <h3>The Dentists We Have</h3>
+                    <p>Currently the Dentist office has four practicing dentists. Their names are Frank Martin, Susan Cassidy, Jerry York, and Wayne Patterson.</p>
+                </article>
+                <article class="article">
+                    <h3>Procedures</h3>
+                    <p>The Dentist Office offers over 7 different dental procedures. All range from a simple teeth clean to a tooth replacement.</p>
+                </article>
+                <article class="article">
+                    <h3>Our Goals</h3>
+                    <p>Currently, The Dentist Office strives to see its patients teeth as white and straight as possible. We accomplish this by staying current on dental practices, as well as dental trends. We know that those pearly whites are very important to our customers, so we strive to provide the best results.</p>
+                </article>
+            </div>
+        </main>
+        <footer class="footer">
+            <article>
+                <p>Are you an employee of The Dentist Office? <a href="emp/login.html"> Login here</a></p>
+            </article>
+        </footer>
+    </body>
+</html>
